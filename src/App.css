@@ -1,0 +1,70 @@
+/* Your css for App.jsx */
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: monospace;
+  font-size: 16px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: ivory;
+}
+
+#clock, #timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border: 12px ridge #262626;
+  border-radius: 24px;
+  width: 600px;
+  height: 350px;
+  background-image: url("https://frankenmuthclock.com/cdn/shop/articles/the-history-of-the-pocket-watch.jpg?v=1582300682");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(30%);
+  box-shadow: 2px 5px 7px #262626;
+}
+
+h1 {
+  width: 55%;
+  font-size: 2.5em;
+  text-align: center;
+  color: goldenrod;
+  border-radius: 12px;
+  background-color: #000000;
+  border: 2px inset black;
+}
+
+h2 {
+  width: 35%;
+  line-height: 1.5;
+  text-align: center;
+  color: goldenrod;
+  border-radius: 12px;
+  background-color: #000000;
+  border: 2px inset black;
+}
+
+button {
+  width: 15%;
+  padding: 0.5rem;
+  color: goldenrod;
+  border-radius: 12px;
+  font-size: 1.0em;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow:  0px 8px 10px#262626bb;
+  background-color: #000000dd;
+  border: 2px inset black;
+}
+button:hover {
+  color: silver;
+  border-color: #daa520aa;
+  box-shadow: none;
+}
+

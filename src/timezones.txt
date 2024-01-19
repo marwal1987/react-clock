@@ -1,0 +1,28 @@
+Ett urval av tidszoner
+Tydligen ska det finnas 
+
+    Europa:
+        Europe/Paris
+        Europe/London
+        Europe/Berlin
+        Europe/Stockholm
+
+    Nordamerika:
+        America/New_York
+        America/Los_Angeles
+        America/Chicago
+
+    Asien:
+        Asia/Tokyo
+        Asia/Shanghai
+        Asia/Kolkata
+
+    Oceanien:
+        Pacific/Auckland
+        Australia/Sydney
+        Pacific/Honolulu
+
+    Afrika:
+        Africa/Cairo
+        Africa/Johannesburg
+        Africa/Nairobi
