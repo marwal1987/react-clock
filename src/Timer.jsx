@@ -25,9 +25,8 @@ function Timer({ startingTime, title }) {
 
   return (
     <div id="timer">
-      <h1>{`${minutes}:${seconds < 10 ? "0" : ""}${seconds}`}
-      </h1>
-      
+      <h1>{`${minutes}:${seconds < 10 ? "0" : ""}${seconds}`}</h1>
+
       <h2>{title}</h2>
       <button onClick={handleStartPauseClick}>
         {isPaused ? "Resume" : "Pause"}
