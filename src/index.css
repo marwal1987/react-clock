@@ -1,37 +1,76 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+* {
+  margin: 0 auto;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+/* Your css for App.jsx */
+.wrapper {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: monospace;
+  font-size: 16px;
+  background-color: #222;
+}
+
+#clock,
+#timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px;
+  border: 3px outset silver;
+  border-radius: 24px;
+  width: 600px;
+  height: 350px;
+  background-image: url("https://frankenmuthclock.com/cdn/shop/articles/the-history-of-the-pocket-watch.jpg?v=1582300682");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(30%);
+  box-shadow: 0px 3px 5px white;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  width: fit-content;
+  font-size: 2rem;
+  text-align: center;
+  color: goldenrod;
+  border-radius: 12px;
+  background-color: #000d;
+  border: 2px inset black;
+  padding: 0px 30px;
+}
+
+h2 {
+  padding: 0px 30px;
+  width: fit-content;
+  text-align: center;
+  color: goldenrod;
+  border-radius: 12px;
+  background-color: #000d;
+  border: 2px inset black;
+}
+
+button {
+  width: fit-content;
+  padding: 0.5rem;
+  color: goldenrod;
+  border-radius: 12px;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0px 8px 10px#262626bb;
+  background-color: #000000dd;
+  border: 2px inset black;
+}
+button:hover {
+  color: silver;
+  border-color: #daa520aa;
+  box-shadow: none;
 }
 
 button {
@@ -44,11 +83,4 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
